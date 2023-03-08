@@ -4,6 +4,8 @@ name: CI
 
 # Controls when the workflow will run
 on:
+  schedule:
+    - cron: '0 2 * * *'
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
     branches: [ "main" ]
@@ -38,4 +40,5 @@ jobs:
           
       - name: Metrics embed
         uses: lowlighter/metrics@v3.32
-
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
