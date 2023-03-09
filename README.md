@@ -1,12 +1,12 @@
 <picture>
+  <img src="/github-metrics.svg" alt="name-q">
+</picture>
+
+<picture>
   <img src="/metrics.plugin.isocalendar.fullyear.svg" alt="name-q">
 </picture>
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=name-q)
-
-<picture>
-  <img src="/github-metrics.svg" alt="name-q">
-</picture>
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=name-q&show_icons=true&theme=radical)
 
